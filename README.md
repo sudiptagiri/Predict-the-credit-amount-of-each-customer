@@ -1,2 +1,28 @@
 # Predict-the-credit-amount-of-each-customer
-Predict the credit amount of each customer with different regressor algorithms of machine learning techniques
+Predict the credit amount of each customer with different regressor algorithms of machine learning techniques<br>
+<br>
+ Predicting credit amounts for customers is a common task in finance and lending.<br>
+ To achieve this, we use machine learning models.<br>
+ The general steps to predict credit amounts:<br>
+<br>
+Data Collection and Preprocessing:
+Gathered historical data on customers, including features such as income, employment status, credit score, loan purpose, etc.
+Cleaned the data by handling missing values, outliers, and encoding categorical variables.
+<br>
+Feature Engineering:
+Created relevant features from the existing data.Normalize and scale numerical features.
+<br>
+Model Selection:
+Choosed an appropriate machine learning model. Common choices including linear regression, decision trees, random forests, and gradient boosting.
+Consider the trade-offs between model complexity and interpretability.
+<br>
+Model Training:
+Split our data into training and validation sets.
+Train the selected model on the training data.
+<br>
+Model Evaluation:
+Evaluated the model’s performance using metrics such as R-SQUARE,ADJUSENT R-SQUARE Root Mean Squared Error (RMSE).
+Adjusted hyperparameters where necessary.
+<br>
+Predictions:
+Useed the trained model to predict credit amounts for new customers based on their features.
